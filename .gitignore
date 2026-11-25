@@ -1,0 +1,45 @@
+﻿# Gradle
+.gradle/
+**/build/
+
+# Kotlin
+.kotlin/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local SDK configuration
+local.properties
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Native build
+.cxx/
+.externalNativeBuild/
+
+# Signing credentials
+*.jks
+*.keystore
+keystore.properties
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
